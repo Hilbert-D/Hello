@@ -1,0 +1,26 @@
+TensorFlow环境：主要参考——https://senitco.github.io/2017/07/20/linux-install-tensorflow/
+1.在原生的Centos 7.4.1中，缺少epel源，需要下载这个源：
+  》 yum install epel-release 
+2.然后再下载pip
+  》yum install Python-pip
+3.下载Anaconda
+  》wget https://repo.continuum.io/archive/Anaconda2-4.4.0-Linux-x86_64.sh
+4. 安装Anaconda（安装之前可能需要yum 安装bzip2）
+  》bash Anaconda2-4.4.0-Linux-x86_64.sh
+5.创建conda环境，命名为tensorflow
+  》conda create -n tensorflow
+#也可指定Python版本
+  》conda create -n tensorflow python=2.7
+6.激活并进入创建的conda环境
+  》source activate tensorflow
+7.在不确定安装版本的情况下也可直接使用如下命令安装
+  》pip install tensorflow 		#CPU版本
+  》pip install tensorflow-gpu	#GPU版本
+8.进入Python环境
+  》Python
+9.测试TensorFlow
+>>> import tensorflow as tf
+>>> hello = tf.constant('Hello, TensorFlow!')
+>>> sess = tf.Session()
+>>> print(sess.run(hello))
+结束！
