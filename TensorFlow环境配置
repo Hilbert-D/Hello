@@ -24,3 +24,7 @@ TensorFlow环境：主要参考——https://senitco.github.io/2017/07/20/linux-
 >>> sess = tf.Session()
 >>> print(sess.run(hello))
 结束！
+
+
+TensorFlow常用函数：
+https://blog.csdn.net/lenbow/article/details/52152766 
