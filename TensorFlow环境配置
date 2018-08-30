@@ -1,4 +1,4 @@
-TensorFlow环境：主要参考——https://senitco.github.io/2017/07/20/linux-install-tensorflow/
+一、Centos上TensorFlow环境：主要参考——https://senitco.github.io/2017/07/20/linux-install-tensorflow/
 1.在原生的Centos 7.4.1中，缺少epel源，需要下载这个源：
   》 yum install epel-release 
 2.然后再下载pip
@@ -25,6 +25,10 @@ TensorFlow环境：主要参考——https://senitco.github.io/2017/07/20/linux-
 >>> print(sess.run(hello))
 结束！
 
+二、Mac上TensorFlow环境配置：
+最初直接用终端中pip install TensorFlow安装，然后再在pycharm中配置TensorFlow，在配置中能够看到TensorFlow包，但是不能够使用，提示tf中无Session等。
+后来通过Anaconda navigator选择Python3环境安装TensorFlow，再回到pycharm中选择对应Python3解释器，终于能够正常执行TensorFlow程序。跑起来mnist。
+参考：https://blog.csdn.net/u011792913/article/details/79218455
 
-TensorFlow常用函数：
+三、TensorFlow常用函数：
 https://blog.csdn.net/lenbow/article/details/52152766 
