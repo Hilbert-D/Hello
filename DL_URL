@@ -1,10 +1,14 @@
 0. The Best Tutorial for Beginners: kaggle——https://www.kaggle.com/getting-started/71679
 
-1. about DL ：  https://www.cs.toronto.edu/~frossard/post/ 
-              17 Jun 2016, 01:34 - VGG in TensorFlow
-              02 Jun 2016, 23:27 - Classification
-              01 Jun 2016, 03:05 - TensorFlow
-              29 May 2016, 12:40 - Multiple Linear Regression
-              28 May 2016, 00:30 - Linear Regression with NumPy
-              19 May 2016, 02:20 - Under construction
-2. 2018年最令人惊艳的30个人工智能项目:  https://mp.weixin.qq.com/s/6df7a3KNZxCYIHZS0Hr5-w
+1. AlexNet有效实现（Python）：https://github.com/hjptriplebee/AlexNet_with_tensorflow
+
+2. VGG有效实现（Python）：https://www.cs.toronto.edu/~frossard/post/vgg16/
+    main page ：  https://www.cs.toronto.edu/~frossard/post/ 
+                17 Jun 2016, 01:34 - VGG in TensorFlow
+                02 Jun 2016, 23:27 - Classification
+                01 Jun 2016, 03:05 - TensorFlow
+                29 May 2016, 12:40 - Multiple Linear Regression
+                28 May 2016, 00:30 - Linear Regression with NumPy
+                19 May 2016, 02:20 - Under construction
+3. 2018年最令人惊艳的30个人工智能项目:  https://mp.weixin.qq.com/s/6df7a3KNZxCYIHZS0Hr5-w
+
