@@ -1,0 +1,6 @@
+Google Inception Net是一个大家族,包括:
+    2014年9月的《Going deeper with convolutions》提出的Inception V1.
+    2015年2月的《Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift》提出的Inception V2
+    2015年12月的《Rethinking the Inception Architecture for Computer Vision》提出的Inception V3
+    2016年2月的《Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning》提出的Inception V4
+  https://blog.csdn.net/u012679707/article/details/80824889
