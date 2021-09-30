@@ -1,6 +1,9 @@
 mac安装-dlib库：https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf
 
 批量离线安装Python包：https://stackoverflow.com/questions/11091623/how-to-install-packages-offline
+1) Create a 【requirements.txt】 file with similar content (Note - these are the libraries you wish to download):
+Flask==0.12
+
 One option for creating the requirements file is to use 【pip freeze > requirements.txt】. This will list all libraries in your environment. Then you can go in to 【requirements.txt】 and remove un-needed ones.
 
 2) Execute command 【mkdir wheelhouse && pip download -r requirements.txt -d wheelhouse 】 to download libs and their dependencies to directory 【wheelhouse】
